@@ -1,19 +1,26 @@
-#include <limits.h>
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * print_sign  - Prints the sign of a number
+ *@n: The number to be checked 
+ * Return: 1 for positive num, -1 for neative num or zero for antthing else
  */
-int main(void)
-{
-	int r;
 
-	r = print_sign(98);
-	if (r < 0)
-		r *= -1;
-	_putchar(r + '0');
-	_putchar('\n');
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+	_putchar(43);
+         return (1);
+        }
+        else if (n < 0)
+	{
+	_putchar(45);
+        return (-1);
+        }
+        else
+	{
+	_putchar(48);
 	return (0);
-}
+	}
+}	
