@@ -34,9 +34,9 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (i = 0; i < j; i++)	
-{
-        int c = *(b + o + i);
+		for (i = 0; i < j; i++)
+	{
+			int c = *(b + o + i);
 
 			if (c < 32 || c > 132)
 			{
@@ -47,4 +47,4 @@ void print_buffer(char *b, int size)
 		printf("\n");
 		o += 10;
 	}
-}	
+}
