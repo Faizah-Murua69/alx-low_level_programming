@@ -26,5 +26,4 @@
 		va_end(ap);
 
 
-		return (sum);
-	
+		return (sum);}	
